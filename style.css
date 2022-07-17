@@ -1,1 +1,10 @@
 h1{color: black;}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+#cl-gx{
+    color: rgb(255, 219, 58);
+}
