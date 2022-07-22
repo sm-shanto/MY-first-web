@@ -14,29 +14,92 @@ h1 {
     color: rgb(255, 219, 58);
 }
 
-section {
+.display-flex {
+
+    margin-bottom: 150px;
     display: flex
 }
 
-.hf-wh {
+.first-div {
     width: 50%;
     padding-left: 5%;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 
+
 }
 
-.first-img img {
+.first-pic img {
+    width: 95%;
+
+}
+
+.sec-div {
+    width: 50%;
+    padding-right: 5%;
+    background-image: url(/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.sec-pic {
     width: 90%;
+    padding-right: 5%;
 
 }
+
 
 .bl {
     text-decoration: none;
     background-color: coral;
     padding: 10px 40px;
     border-radius: 5px;
-    background-image: linear-gradient(tomato, coral);
     font-weight: 600;
     color: black;
+}
+
+.thr-div {
+    display: flex;
+    padding: 5%;
+}
+
+
+
+.cl-head {
+
+    font-size: 50px;
+
+
+}
+
+.div-thr {
+    background-image: url(/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.boxsha {
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.h2-color {
+    color: rgb(255, 219, 58);
+}
+
+#div-bor-thr {
+    border-left: 7px tomato solid;
+}
+
+#div-bor-fr {
+    border-left: 7px blue solid;
+}
+
+footer p {
+    text-align: center;
 }
